@@ -20,6 +20,7 @@
     <div>
         {{$info['age']}}
     </div>
+    @endforeach
 
 </body>
 </html>

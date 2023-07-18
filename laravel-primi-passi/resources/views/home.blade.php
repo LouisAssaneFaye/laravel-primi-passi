@@ -7,6 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    Hello world
+    <h1>
+        Hello World
+    </h1>
+    @foreach ($informations as $info)
+    <div>
+        {{$info['name']}}
+    </div>
+    <div>
+        {{$info['surname']}}
+    </div>
+    <div>
+        {{$info['age']}}
+    </div>
+
 </body>
 </html>

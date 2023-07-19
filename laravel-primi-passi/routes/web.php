@@ -20,6 +20,11 @@ Route::get('/home', function () {
                 'name'=>'Claudia',
                 'surname'=>'Rossi',
                 'age'=>'88',
+            ],
+            [
+                'name'=>'Louis',
+                'surname'=>'Faye',
+                'age'=>'26',
             ]
         ]
 
